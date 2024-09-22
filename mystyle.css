@@ -4,8 +4,24 @@
 
 }
 
-.Bar {
+.BarA {
     background-color: #004aad;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.BarB {
+    background-color:#9f1631;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.BarC {
+    background-color:#752996;
     
     display: flex;
     justify-content: space-between;
@@ -20,6 +36,8 @@
     padding-bottom: 20px;
     font-family: Fredoka;
 }
+
+
 
 .navbar {
     display: flex;
