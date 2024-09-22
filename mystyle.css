@@ -9,6 +9,7 @@
     
     display: flex;
     justify-content: space-between;
+    border-bottom:10px solid #fff;
     
 }
 
@@ -61,26 +62,22 @@
 }
 
 
-
-section{
-    background-color: #0cc0df;
-    margin-top: 10px;
-    
-   
-}
-
 .ABM{
     color: #fff;
     font-family: Fredoka;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #004aad;
-    width:250px;
-    height:250px;
-    border:10px outset #fff;
-    border-radius: 5px;
+    width:350px;
+    height:300px;
+    border:10px solid #fff;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left:50px;
     
 }
+
+
 
 .HeadABM{
     text-align: center;
@@ -90,15 +87,21 @@ section{
 .HeadCT{
     text-align: center;
     padding-top: 20px;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .Info{
     padding-top: 10px;
-    font-size: 12pt;
+    font-size: 15pt;
+    list-style: none;
 }
 
 .CT{
     padding-top: 10px;
-    font-size: 12pt;
+    font-size: 15pt;
+    list-style: none;
+}
+
+body{
+    background-color: #0cc0df;
 }
