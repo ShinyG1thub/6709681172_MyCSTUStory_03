@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.Bar {
+    background-color: #004aad;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Topic{
+    font-size: 20pt;
+    color:aliceblue;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    
+   
+}
+
+.navbar li {
+    color:aliceblue;
+    padding-top: 70px;
+    
+    
+}
+
+.navbar li a{
+    color:#fff;
+    margin: 0 1rem;
+    font-size: 14pt;
+    
+
+    
+}
