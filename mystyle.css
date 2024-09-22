@@ -60,7 +60,45 @@
     font-family: Fredoka;    
 }
 
+
+
 section{
     background-color: #0cc0df;
-    margin-top: 8px;
+    margin-top: 10px;
+    
+   
+}
+
+.ABM{
+    color: #fff;
+    font-family: Fredoka;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #004aad;
+    width:250px;
+    height:250px;
+    border:10px outset #fff;
+    border-radius: 5px;
+    
+}
+
+.HeadABM{
+    text-align: center;
+    font-size: 18pt;
+}
+
+.HeadCT{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18pt;
+}
+
+.Info{
+    padding-top: 10px;
+    font-size: 12pt;
+}
+
+.CT{
+    padding-top: 10px;
+    font-size: 12pt;
 }
