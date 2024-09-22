@@ -5,7 +5,7 @@
 }
 
 .BarA {
-    background-color: #004aad;
+    background-color: #860bc8;
     
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@
     font-family: Fredoka;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #004aad;
+    background-color: #860bc8;
     width:350px;
     height:300px;
     border:10px solid #fff;
@@ -75,6 +75,39 @@
     margin-top: 50px;
     margin-left:50px;
     
+}
+
+.ITV{
+    color: #fff;
+    font-family: Fredoka;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #860bc8;
+    width:450px;
+    height:400px;
+    border:10px solid #fff;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left:50px;
+    
+}
+
+.HeadITV{
+    text-align: center;
+    font-size: 18pt;
+}
+
+.Engtxt{
+    padding-top: 10px;
+    font-size: 12pt;
+    
+}
+
+.THtxt{
+    padding-top: 10px;
+    font-size: 12pt;
+    
+    font-family: itim;
 }
 
 
@@ -87,7 +120,7 @@
 .HeadCT{
     text-align: center;
     padding-top: 20px;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .Info{
@@ -103,5 +136,5 @@
 }
 
 body{
-    background-color: #0cc0df;
+    background-image: url("resources/S__2818051.gif");;
 }
