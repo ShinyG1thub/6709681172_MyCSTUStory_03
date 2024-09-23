@@ -18,6 +18,7 @@
     
     display: flex;
     justify-content: space-between;
+    border-bottom: 10px solid #fff;
     
 }
 
@@ -26,6 +27,7 @@
     
     display: flex;
     justify-content: space-between;
+    border-bottom:10px solid #fff;
     
 }
 
@@ -260,5 +262,45 @@
     border: 8px solid #fff;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+.ftbody{
+    background-color: #f7a5b5;
+}
+
+.Plan1{
+    background-color: #fff;
+    margin-top: 50px;
+    width: 400px;
+    height:500px;
+    margin-left: 50px;
+    border: 10px solid #9f1631;
+    border-radius: 15px;
+}
+.DS{
+    text-align: center;
+    font-size: 18pt;
+    font-family: Fredoka;
+    color: #9f1631;
+    padding-top: 20px;
+   
+}
+
+.Plan1txt{
+    padding-top: 10px;
+    font-size: 13pt;
+    font-family: itim;
+    color: #9f1631;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.DSIMG{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.YN2{
+    padding-top: 10px;
 }
 
