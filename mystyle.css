@@ -15,8 +15,8 @@
 
 .BarB {
     background-color:#9f1631;
- 
     display: flex;
+    width: 1536px;
     justify-content: space-between;
     border-bottom: 10px solid #fff;
     
@@ -274,8 +274,7 @@
     width: 400px;
     height:500px;
     position: relative;
-    margin-right: 100px;
-    margin-left: 50px;
+    margin-left: 56px;
     border: 10px solid #9f1631;
     border-radius: 15px;
     box-shadow: 0px 0px 50px #d65a5a;
@@ -316,13 +315,13 @@
     height:500px;
     position:absolute;
     margin-right: 100px;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: -519px;
     border: 10px solid #9f1631;
     border-radius: 15px;
     box-shadow: 0px 0px 50px #d65a5a;
 }
-.SE{
+.BS{
     text-align: center;
     font-size: 18pt;
     font-family: Fredoka;
@@ -340,7 +339,7 @@
     padding-right: 20px;
 }
 
-.SEIMG{
+.BSIMG{
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 15px;
@@ -352,3 +351,44 @@
 }
 
 
+.Plan3{
+    background-color: #fff;
+    margin-top: 50px;
+    width: 400px;
+    height:500px;
+    position:relative;
+    margin-right: 56px;
+    margin-left: 1050px;
+    margin-top: -519px;
+    border: 10px solid #9f1631;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px #d65a5a;
+}
+.SE{
+    text-align: center;
+    font-size: 18pt;
+    font-family: Fredoka;
+    color: #9f1631;
+    padding-top: 20px;
+   
+}
+
+.Plan3txt{
+    padding-top: 10px;
+    font-size: 13pt;
+    font-family: itim;
+    color: #9f1631;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SEIMG{
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+
+.YN32{
+    padding-top: 10px;
+}
