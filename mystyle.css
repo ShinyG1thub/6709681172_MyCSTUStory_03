@@ -123,8 +123,8 @@
     list-style: none;
 }
 
-body{
-    background-image: url("resources/S__2818051.gif");;
+.idbody{
+    background-image: url("resources/S__2818051.gif");
 }
 
 .int-vdo{
@@ -261,3 +261,4 @@ body{
     border-radius: 15px;
     margin-bottom: 10px;
 }
+
