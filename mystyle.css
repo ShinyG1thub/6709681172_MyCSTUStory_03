@@ -394,3 +394,16 @@
 .YN32{
     padding-top: 10px;
 }
+
+.jnbody{
+    background-color: #c37ce9;
+}
+
+.Goal{
+    text-align: center;
+    font-size: 20pt;
+    font-family: Fredoka;
+    color: #fff;
+    padding-top: 20px;
+    text-shadow: 4px 1px 2px #752996;
+}
