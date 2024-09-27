@@ -518,3 +518,12 @@
     padding-bottom: 15px;
     margin-top: 50px;
 }
+
+.navbar a:hover{
+    color:aqua;
+}
+
+.navbar a:active{
+    color:#ff00b3;
+}
+
