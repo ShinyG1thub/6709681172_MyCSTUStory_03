@@ -11,6 +11,7 @@
     justify-content: space-between;
     border-bottom:10px solid #fff;
     
+    
 }
 
 .BarB {
@@ -45,6 +46,7 @@
 .navbar {
     display: flex;
     list-style: none;
+    flex-wrap: nowrap;
     
    
 }
@@ -52,6 +54,8 @@
 .navbar li {
     color:aliceblue;
     padding-top: 70px;
+    flex-wrap: nowrap;
+    display: flex;
     
     
 }
@@ -60,7 +64,8 @@
     color:#fff;
     margin: 0 1rem;
     font-size: 14pt;
-    font-family: Fredoka;    
+    font-family: Fredoka;
+    display: flex;    
 }
 
 
@@ -79,17 +84,21 @@
     margin-top: 50px;
     margin-left:auto;
     margin-right:auto;
+    flex-wrap: nowrap;
+    
     
 }
 
 .HeadITV{
     text-align: center;
     font-size: 18pt;
+    flex-wrap: nowrap;
 }
 
 .Engtxt{
     padding-top: 30px;
     font-size: 12pt;
+    flex-wrap: nowrap;
     
 }
 
@@ -111,6 +120,7 @@
     text-align: center;
     padding-top: 20px;
     font-size: 18pt;
+    flex-wrap: nowrap;
 }
 
 .Info{
@@ -134,8 +144,12 @@
     border: 10px solid white;
     border-radius: 15px;
     background-image: url("resources/bgvdo.png");
+    justify-items: center;
+    display: grid;
     
 }
+
+
 
 .Vdohead{
     color: aliceblue;
@@ -149,13 +163,21 @@
 
 .blockcon{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
+    grid-template-columns:repeat(auto-fit,300px) ;
+    column-gap: 30px;
+    justify-content: center;
 }
 
+
 .blockitem img{
-    width: 100%;
+   width: 100%;
+
 }
+
+.blockitem{
+    margin-top: 20px;
+}
+
 
 
 .blockTT{
@@ -184,6 +206,19 @@
     font-size: 18pt;
     background-color: aliceblue;
     list-style: none;
+    margin-top: 20px;
+    
+}
+
+.blockitem1{
+    border:10px solid #860bc8;
+    border-radius: 15px;
+    color: #860bc8;
+    font-family:Fredoka;
+    font-size: 18pt;
+    background-color: aliceblue;
+    list-style: none;
+    margin-top: 20px;
     
 }
 
