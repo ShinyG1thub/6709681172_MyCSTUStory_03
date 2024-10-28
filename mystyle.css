@@ -4,25 +4,19 @@
 
 }
 
-@media (max-width :1600px){
 
 
-}
-
-@media (max-width :800px){
-    .BarA {
-        background-color: blue;
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        border-bottom:10px solid #fff;
-        
-        
-    }
+@media (max-width : 768px){
+   .Topic h1{
+    font-size: 20pt;
+   }
    
 }
 
-@media (max-width :400px){
+@media (max-width :360px){
+    .Topic h1{
+        font-size: 20pt;
+       }
     
 }
 .BarA {
@@ -69,7 +63,6 @@
     list-style: none;
     flex-wrap: nowrap;
     
-   
 }
 
 .navbar li {
@@ -90,15 +83,15 @@
 }
 
 .navbarA {
-    
+    display: flex;
     list-style: none;
-    
+    flex-wrap: nowrap;
    
 }
 
 .navbarA li {
     color:aliceblue;
-    padding-top: 5px;
+    padding-top: 70px;
     flex-wrap: nowrap;
     display: flex;
     
@@ -113,8 +106,7 @@
     font-size: 14pt;
     font-family: Fredoka;
     display: flex; 
-    border: 2px solid white; 
-    background-color: #752996;
+    
     
 }
 
