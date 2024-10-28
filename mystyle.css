@@ -4,6 +4,27 @@
 
 }
 
+@media (max-width :1600px){
+
+
+}
+
+@media (max-width :800px){
+    .BarA {
+        background-color: blue;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        border-bottom:10px solid #fff;
+        
+        
+    }
+   
+}
+
+@media (max-width :400px){
+    
+}
 .BarA {
     background-color: #860bc8;
     position: relative;
@@ -66,6 +87,35 @@
     font-size: 14pt;
     font-family: Fredoka;
     display: flex;    
+}
+
+.navbarA {
+    
+    list-style: none;
+    
+   
+}
+
+.navbarA li {
+    color:aliceblue;
+    padding-top: 5px;
+    flex-wrap: nowrap;
+    display: flex;
+    
+    
+    
+}
+
+.navbarA li a{
+    color:#fff;
+    margin: 0 1rem;
+    padding-left: 10px;
+    font-size: 14pt;
+    font-family: Fredoka;
+    display: flex; 
+    border: 2px solid white; 
+    background-color: #752996;
+    
 }
 
 
