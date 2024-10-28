@@ -8,8 +8,30 @@
 
 @media (max-width : 768px){
    .Topic h1{
-    font-size: 20pt;
+    font-size: 22pt;
+    margin-top: 10px;;
    }
+   .navtag ul li  a {
+    font-size: 10pt;
+    margin-bottom: 5px;
+   }
+   .HeadITV h2{
+    font-size: 20pt;
+    margin-top: 10px;
+   }
+   .Engtxt p{
+    font-size: 8pt;
+   }
+   .THtxt p{
+    font-size: 8pt;
+   }
+   .ITV{
+    background-color:#9f1631;
+   }
+   
+   
+
+
    
 }
 
@@ -119,11 +141,11 @@
     padding-left: 30px;
     padding-right: 30px;
     background-color: #860bc8;
-    width:450px;
-    height:400px;
+    display: inline-block;
     border:10px solid #fff;
     border-radius: 15px;
     margin-top: 50px;
+    padding-bottom: 50px;
     margin-left:auto;
     margin-right:auto;
     flex-wrap: nowrap;
