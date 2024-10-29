@@ -6,34 +6,70 @@
 
 
 
-@media (max-width : 768px){
+@media (max-width : 800px){
    .Topic h1{
-    font-size: 22pt;
+    font-size: 28pt;
     margin-top: 10px;;
    }
    .navtag ul li  a {
-    font-size: 10pt;
+    font-size: 12pt;
     margin-bottom: 5px;
    }
    .HeadITV h2{
-    font-size: 20pt;
+    font-size: 24pt;
     margin-top: 10px;
    }
    .Engtxt p{
-    font-size: 8pt;
+    font-size: 12pt;
    }
    .THtxt p{
-    font-size: 8pt;
+    font-size: 12pt;
    }
-   .ITV{
-    background-color:#9f1631;
+   .ITD{
+    font-size: 24pt;
    }
+   .int-vdo video{
+    max-width: 200px;
+   }
+   
    
    
 
 
    
 }
+
+@media (max-width : 500px){
+    .Topic h1{
+     font-size: 20pt;
+     margin-top: 10px;;
+    }
+    .navtag ul li  a {
+     font-size: 10pt;
+     margin-bottom: 5px;
+     
+    }
+    
+
+    .HeadITV h2{
+     font-size: 14pt;
+     margin-top: 10px;
+    }
+    .Engtxt p{
+     font-size: 8pt;
+    }
+    .THtxt p{
+     font-size: 8pt;
+    }
+    .ITV{
+     background-color:#9f1631;
+    }
+    
+    
+ 
+ 
+    
+ }
 
 @media (max-width :360px){
     .Topic h1{
@@ -146,8 +182,8 @@
     border-radius: 15px;
     margin-top: 50px;
     padding-bottom: 50px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:50px;
+    margin-right:50px;
     flex-wrap: nowrap;
     
     
@@ -210,7 +246,14 @@
     background-image: url("resources/bgvdo.png");
     justify-items: center;
     display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
     
+    
+}
+
+.int-vdo video{
+    max-width: 250px;
 }
 
 
@@ -625,4 +668,14 @@
 .navbar a:active{
     color:#ff00b3;
 }
+
+
+.navbarA a:hover{
+    color:aqua;
+}
+
+.navbarA a:active{
+    color:#ff00b3;
+}
+
 
