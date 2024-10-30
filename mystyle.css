@@ -56,7 +56,31 @@
     .mark{
     padding-bottom: 20px;
     }
+    .pbt{
+        font-size: 14pt;
+    }
    
+}
+
+@media (max-width : 892px){
+    .Topic h1{
+        font-size: 25pt;
+        margin-top: 10px;;
+       }
+}
+
+@media (max-width : 669px){
+    .Topic h1{
+        font-size: 21pt;
+        margin-top: 10px;;
+       }
+}
+
+@media (max-width : 646px){
+    .navtag ul li  a {
+        font-size: 10pt;
+        margin-bottom: 5px;
+       }
 }
 
 @media (max-width : 500px){
@@ -112,17 +136,24 @@
     
  }
 
-
-@media (max-width : 400px){
+ @media (max-width : 381px){
     .Topic h1{
-        font-size: 14pt;
+        font-size: 18pt;
+        margin-top: 10px;;
+       }
+}
+
+@media (max-width : 360px){
+    .Topic h1{
+        font-size: 18pt;
         margin-top: 10px;
         margin-left: 5px;
        }
        .navtag ul li  a {
-        font-size: 6pt;
+        font-size: 8pt;
         margin-bottom: 5px;
        }
+       
        .HeadITV h2{
         font-size: 15pt;
         margin-top: 10px;
@@ -143,7 +174,7 @@
        .blockTT h2{
         font-size: 15pt;
        }
-       .info h3{
+       .blockitem1 .info h3{
         font-size: 15pt;
        }
        .contact h3{
@@ -164,6 +195,12 @@
         .mark{
         padding-bottom: 20px;
         }
+        .pbt{
+            font-size: 10pt;
+        }
+        
+        
+        
     
     
  
